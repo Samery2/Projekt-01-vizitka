@@ -1,3 +1,60 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+
+
+body{
+    color: black;
+    background-color: #646060;
+    font-family: "Time New Roman", serif;
+    font-size: 23px;
+    line-height: 1,5px;
+    margin: 0 3%;
+    }
+    
+    
+
+    h1{
+    color: #a0ddff;
+    text-shadow: 0 3px 3px #5a0001;
+    font-family: Arial, san-serif;
+    font-style:italic;
+    margin-bottom: 3.5%;
+    }
+    
+    .foto {
+        border-radius: 50%;
+        float: left;
+        margin: 0 2.5% 0 0;
+        overflow: auto;
+        width: 270px;
+    }
+    
+    .popis{
+       text-align: justify;
+   }
+
+    .udaje{
+        margin-top: 4%;
+    }
+    
+    .mail{
+        border-radius: 50%;
+        width: 65px;
+        box-sizing: border-box;
+        overflow: auto;
+        margin: 0 0 0 10px;
+    }
+    
+    .facebook{
+        border-radius: 50%;
+        width: 65px;
+        margin: 0 0 0 15px;
+        box-sizing: border-box;
+        overflow: auto;
+    }
+    
+    .vse{
+    background-color: #e8e2e6;
+    padding: 3% 3% 100% 3%;
+    }
