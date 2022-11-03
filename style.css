@@ -9,7 +9,7 @@ body{
     font-family: "Time New Roman", serif;
     font-size: 23px;
     line-height: 1,5px;
-    margin: 0 3%;
+    margin: 4% 3%;
     }
     
     
@@ -25,12 +25,12 @@ body{
     .foto {
         border-radius: 50%;
         float: left;
-        margin: 0 2.5% 0 0;
+        margin: 0 2.5% 2.5% 0;
         overflow: auto;
         width: 270px;
     }
     
-    .popis{
+    main{
        text-align: justify;
    }
 
@@ -56,5 +56,5 @@ body{
     
     .vse{
     background-color: #e8e2e6;
-    padding: 3% 3% 100% 3%;
+    padding: 3% 3% 3% 3%;
     }
